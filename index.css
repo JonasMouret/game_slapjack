@@ -98,8 +98,28 @@ html, body {
 }
 
 #play-again-control, #win-lose-status {
-    padding: 5vh 0;
+    padding: 8vh 0;
     width:100%;
-    background-color: #FFFFFF;
+    background-color: #1E2E5F;
     text-align:center;
+}
+
+#win-lose-status {
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    padding: 25px 55px;
+    font-weight: 800;
+}
+
+button:hover, 
+button:focus {
+    background-color: #9198E5;
+    color: aliceblue;
 }
